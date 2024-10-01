@@ -14,6 +14,9 @@ $testo = "La mia stringa può essere contenuta anche in una variabile e mi aspet
 $section->addText('Questa è niente altro che una banalissima stringa');
 $section->addText($testo);
 
+$section->addText('Aggiungo ancora un altro paragrafo');
+$section->addText($testo);
+
 /*
  * Note: it's possible to customize font style of the Text element you add in three ways:
  * - inline;
