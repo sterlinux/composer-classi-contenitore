@@ -53,4 +53,11 @@ echo $c . "\n";
 
 $c->esportaInWord();
 
+$p = new Persona();
+$p->setNome("Mario");
+$p->setCognome("Rossi");
+$p->setCodiceFiscale("MRDSAKJSH");
+
+
+
 ?>
