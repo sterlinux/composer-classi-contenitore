@@ -27,6 +27,12 @@ $s3->setCognome("Bianchi");
 $s3->setMatricola("STD0003");
 $s3->setEmail("alberto.bianchi@example.com");
 
+$s4 = new Studente();
+$s4->setNome("Alberto");
+$s4->setCognome("Bianchi");
+$s4->setMatricola("STD0003");
+$s4->setEmail("alberto.bianchi@example.com");
+
 //print_r($s);
 $d = new Docente();
 $d->setNome("Giovanni");
@@ -44,6 +50,7 @@ $c->setProgramma("Programma del corso");
 $c->addStudente($s);
 $c->addStudente($s2);
 $c->addStudente($s3);
+$c->addStudente($s4);
 
 $c->setDocente($d);
 
